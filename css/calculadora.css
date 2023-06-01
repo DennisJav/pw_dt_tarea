@@ -1,0 +1,44 @@
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    /*grid-template-rows: repeat(4,75px);  puede hacerse lo mismo pero en filas */ 
+    background-color: rgb(16, 164, 238);
+    padding: 25px;
+    border-radius: 15px;
+    border-style: groove;
+    box-shadow: 10px 10px 15px 0px black;
+
+}
+
+.calculadora button{
+    color: black;
+    background-color: cornsilk;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 4px;
+    border-style: hidden;
+    box-shadow: 2px 2px 2px 0px rgb(6, 6, 6);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.calculadora button:hover{
+    background-color: rgb(66, 137, 113);
+}
+
+.cero{
+    grid-column: span 2;
+}
+
+.pantalla{
+    font-size: 20px;
+    grid-column: span 4;
+    padding: 25px;
+}
