@@ -1,0 +1,70 @@
+body {
+    background-color: #74aa9b;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion {
+
+    background-color: #ece488;
+    width: 450px;
+}
+
+.seccion h4 {
+    margin: 10px 0px ;
+    width: 50px;
+    color: #0e2e49;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif font-style: italic1;
+}
+
+
+
+.seccion div {
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.seccion input {
+    width: 100%;
+    border: 0px;
+    background: none;
+    border-bottom: 1px solid black;
+}
+
+.seccion input:focus {
+    outline: none;
+}
+
+.seccion input::placeholder {
+    color: rgb(66, 206, 27);
+}
+
+section h2 {
+    text-align: center;
+}
+
+section .boton {
+    text-align: center;
+
+}
+
+section button {
+    color: #0a1213;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section button:hover {
+    width: 90px;
+    height: 35px;
+}
